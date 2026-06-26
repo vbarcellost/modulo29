@@ -17,7 +17,7 @@ public class ConnectionFactory {
         
         Class.forName("com.mysql.cj.jdbc.Driver");
         String URL = "jdbc:mysql://localhost:3306/vendasdb";
-        String USER = "root";
+        String USER = "vitoria";
         String PASSWORD = "13312020";
      
         return DriverManager.getConnection(URL, USER, PASSWORD);
